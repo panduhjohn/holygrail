@@ -114,18 +114,38 @@ img {
 .contact1 {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
+    justify-content: space-around
 }
 
-.contact2 {
+/* .contact2 {
     display: flex;
     flex-direction: row;
     
-}
-
-/* #insta {
-    width: 10%;
-    height: auto;
-    background-
 } */
 
+#insta {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(assets/insta.png);
+    background-size: cover;
+}
+
+#email {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(assets/email.png);
+    background-size: cover;
+}
+
+#fb {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(assets/fb.png);
+    background-size: cover;
+}
